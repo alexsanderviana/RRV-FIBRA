@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RRV Fibra | Infraestrutura e Construção de Redes Telecom</title>
+  <meta name="description"
+    content="RRV Fibra – Especialista em infraestrutura de telecomunicações. Oferecemos serviços de lançamento de fibra, fusão, manutenção e ativação de clientes para provedores." />
+  <meta name="keywords"
+    content="lançamento de fibra, fusão de fibra óptica, manutenção de rede, infraestrutura telecom, RRV Fibra, instalação terceirizada" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header id="header">
+    <nav class="nav-container">
+      <a href="#hero" class="nav-logo" id="nav-logo-link">
+        <img src="assets/imgs/logo.png" alt="RRV Fibra Logo" id="logo-img" />
+        <span class="logo-text">RRV <span>Fibra</span></span>
+      </a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="#servicos" class="nav-link">Serviços</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+        <li><a href="#contato" class="nav-btn-cta" id="nav-cta-btn">Solicitar Orçamento</a></li>
+      </ul>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="hero" class="hero-section">
+    <div class="hero-bg-video">
+      <video autoplay muted loop playsinline id="hero-video">
+        <source src="assets/videos/video1.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-mesh"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fas fa-tools"></i> Especialistas em Infraestrutura Telecom
+      </div>
+      <h1 class="hero-title">
+        Construindo a <span class="highlight">Conectividade</span><br />
+        com <span class="highlight-blue">RRV Fibra</span>
+      </h1>
+      <p class="hero-subtitle">
+        Sua parceira estratégica em lançamento de fibra, fusão, manutenção e ativação de clientes.
+        Soluções profissionais para provedores e empresas de tecnologia.
+      </p>
+      <div class="hero-cta-group">
+        <a href="#contato" class="btn-primary" id="hero-plans-btn">
+          <i class="fas fa-file-signature"></i> Solicitar Orçamento
+        </a>
+        <button class="btn-secondary" id="hero-video-btn" onclick="openVideoModal('assets/videos/video2.mp4')">
+          <i class="fas fa-play-circle"></i> Nossa Operação
+        </button>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num" data-target="1500">0</span><span class="stat-unit">km+</span>
+          <p>Fibra Lançada</p>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="50">0</span><span class="stat-unit">+</span>
+          <p>Cidades Atendidas</p>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="10">0</span><span class="stat-unit">+</span>
+          <p>Anos de Experiência</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="mouse-icon">
+        <div class="mouse-wheel"></div>
+      </div>
+      <span>Conheça nosso trabalho</span>
+    </div>
+  </section>
+
+  <!-- ===================== SOBRE ===================== -->
+  <section id="sobre" class="section sobre-section">
+    <div class="container">
+      <div class="section-badge"><i class="fas fa-signal"></i> Expertise Técnica</div>
+      <div class="sobre-grid">
+        <div class="sobre-content">
+          <h2 class="section-title">Braço Forte na sua<br /><span class="highlight">Expansão de Rede</span></h2>
+          <p class="sobre-text">
+            A <strong>RRV Fibra</strong> atua no mercado de telecomunicações como uma empresa especializada em serviços
+            de infraestrutura para provedores de internet (ISPs) e operadoras.
+          </p>
+          <p class="sobre-text">
+            Entendemos que a qualidade da rede física é o alicerce de qualquer serviço de internet. Por isso, investimos
+            em equipamentos de ponta, como máquinas de fusão de última geração e OTDRs certificados, garantindo que cada
+            emenda e lançamento siga os padrões técnicos mais rigorosos.
+          </p>
+          <div class="sobre-values">
+            <div class="value-item">
+              <i class="fas fa-hard-hat"></i>
+              <div>
+                <h4>Segurança e Certificação</h4>
+                <p>Equipe treinada em NR10 e NR35, com equipamentos de proteção adequados.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <i class="fas fa-microchip"></i>
+              <div>
+                <h4>Tecnologia de Precisão</h4>
+                <p>Fusões de fibra com perda mínima e certificação detalhada de rede.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h4>Agilidade Operacional</h4>
+                <p>Comprometimento com prazos de lançamento e ativação de clientes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sobre-visual">
+          <div class="sobre-img-wrap">
+            <img src="assets/imgs/port1.jpg" alt="Equipe RRV em operação" class="sobre-main-img" id="sobre-img-main" />
+            <div class="sobre-img-badge">
+              <i class="fas fa-medal"></i>
+              <span>Parceria Líder no Setor</span>
+            </div>
+          </div>
+          <div class="sobre-img-secondary">
+            <img src="assets/imgs/port2.jpg" alt="Lançamento de Fibra" id="sobre-img-2" />
+            <img src="assets/imgs/port3.jpg" alt="Fusão de Fibra" id="sobre-img-3" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVIÇOS ===================== -->
+  <section id="servicos" class="section servicos-section">
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="glow-orb glow-orb-2"></div>
+    <div class="container">
+      <div class="section-badge"><i class="fas fa-network-wired"></i> Nossas Soluções</div>
+      <h2 class="section-title text-center">Nossos <span class="highlight">Serviços Técnicos</span></h2>
+      <p class="section-subtitle text-center">Atuamos em todas as etapas da rede óptica, do backbone à ativação final.
+      </p>
+      <div class="servicos-grid">
+
+        <div class="servico-card glass-card" id="servico-lancamento">
+          <div class="servico-icon">
+            <i class="fas fa-truck-moving"></i>
+          </div>
+          <h3>Lançamento de Fibra</h3>
+          <p>Lançamento de cabos ópticos aéreos (espinhamento e fixação) e subterrâneos em dutos existentes.</p>
+          <ul class="servico-features">
+            <li><i class="fas fa-check"></i> Cabos Auto-sustentados e Flat</li>
+            <li><i class="fas fa-check"></i> Organização de Reserva Técnica</li>
+            <li><i class="fas fa-check"></i> Ferragens e Ancoragem Profissional</li>
+            <li><i class="fas fa-check"></i> Mão de obra especializada</li>
+          </ul>
+        </div>
+
+        <div class="servico-card glass-card featured" id="servico-fusao">
+          <div class="featured-label">Especialidade</div>
+          <div class="servico-icon">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <h3>Fusão e Certificação</h3>
+          <p>Emendas ópticas por fusão em caixas de atendimento (CTO), DER e infraestrutura de backbone.</p>
+          <ul class="servico-features">
+            <li><i class="fas fa-check"></i> Fusão de Núcleo a Núcleo</li>
+            <li><i class="fas fa-check"></i> Medições com OTDR e Power Meter</li>
+            <li><i class="fas fa-check"></i> Montagem de CEO e CTO</li>
+            <li><i class="fas fa-check"></i> Relatórios de Certificação</li>
+          </ul>
+        </div>
+
+        <div class="servico-card glass-card" id="servico-ativacao">
+          <div class="servico-icon">
+            <i class="fas fa-user-check"></i>
+          </div>
+          <h3>Ativação de Clientes</h3>
+          <p>Equipes dedicadas para instalação da "última milha" em clientes residenciais e comerciais (FTTH).</p>
+          <ul class="servico-features">
+            <li><i class="fas fa-check"></i> Instalação de Drop Óptico</li>
+            <li><i class="fas fa-check"></i> Configuração de ONUs e Roteadores</li>
+            <li><i class="fas fa-check"></i> Padronização de Instalação</li>
+            <li><i class="fas fa-check"></i> Atendimento Uniformizado</li>
+          </ul>
+        </div>
+
+        <div class="servico-card glass-card" id="servico-manutencao">
+          <div class="servico-icon">
+            <i class="fas fa-ambulance"></i>
+          </div>
+          <h3>Manutenção de Rede</h3>
+          <p>Suporte corretivo 24h para rompimentos de cabos e falhas técnicas em infraestrutura óptica.</p>
+          <ul class="servico-features">
+            <li><i class="fas fa-check"></i> Plantão de Emergência</li>
+            <li><i class="fas fa-check"></i> Substituição de Cabos Danificados</li>
+            <li><i class="fas fa-check"></i> Readequação de Cabos em Postes</li>
+            <li><i class="fas fa-check"></i> Limpeza e Organização de Racks</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== INTERSTITIAL BAND ===================== -->
+  <section class="interstitial-band">
+    <div class="band-content">
+      <div class="band-text">
+        <i class="fas fa-fiber-optic-cable fa-2x"></i>
+        <p>Infraestrutura robusta de ponta a ponta. Sua rede em mãos de quem entende do negócio.</p>
+      </div>
+      <div class="band-numbers">
+        <div class="band-stat"><span>100%</span><small>Fibra Óptica</small></div>
+        <div class="band-stat"><span>24h</span><small>Prontidão</small></div>
+        <div class="band-stat"><span>SLA</span><small>Garantido</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PORTFÓLIO ===================== -->
+  <section id="portfolio" class="section portfolio-section">
+    <div class="container">
+      <div class="section-badge"><i class="fas fa-images"></i> Nosso Trabalho</div>
+      <h2 class="section-title text-center">Portfólio de <span class="highlight">Obras</span></h2>
+      <p class="section-subtitle text-center">Confira os bastidores de nossas instalações e construções de redes.</p>
+
+      <div class="portfolio-filters" id="portfolio-filters">
+        <button class="filter-btn active" data-filter="all" id="filter-all">Todos</button>
+        <button class="filter-btn" data-filter="foto" id="filter-foto">Fotos</button>
+        <button class="filter-btn" data-filter="video" id="filter-video">Vídeos</button>
+      </div>
+
+      <div class="portfolio-grid" id="portfolio-grid">
+
+        <div class="portfolio-item" data-type="foto" id="port-item-1">
+          <img src="assets/imgs/port1.jpg" alt="Instalação em poste" loading="lazy" />
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <h4>Lançamento em Posteamento</h4>
+              <p>Rede externa municipal</p>
+            </div>
+            <button class="portfolio-expand"
+              onclick="openImgModal('assets/imgs/port1.jpg', 'Lançamento em Posteamento – Rede Externa')"
+              aria-label="Ver foto">
+              <i class="fas fa-expand"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-type="foto" id="port-item-2">
+          <img src="assets/imgs/port2.jpg" alt="Rede Externa" loading="lazy" />
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <h4>Expansão de Backbone</h4>
+              <p>Lançamento de Cabo 48 bras</p>
+            </div>
+            <button class="portfolio-expand"
+              onclick="openImgModal('assets/imgs/port2.jpg', 'Expansão de Backbone – Lançamento 48 fibras')"
+              aria-label="Ver foto">
+              <i class="fas fa-expand"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="portfolio-item portfolio-item--wide" data-type="video" id="port-item-v1">
+          <video muted loop class="portfolio-video" id="port-video-1">
+            <source src="assets/videos/video1.mp4" type="video/mp4" />
+          </video>
+          <div class="portfolio-overlay video-overlay">
+            <div class="portfolio-info">
+              <h4>Vídeo Institucional</h4>
+              <p>Nossa equipe em ação técnica</p>
+            </div>
+            <button class="portfolio-play-btn" onclick="openVideoModal('assets/videos/video1.mp4')"
+              id="play-video1-btn">
+              <i class="fas fa-play"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-type="foto" id="port-item-3">
+          <img src="assets/imgs/port3.jpg" alt="Organização de CTO" loading="lazy" />
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <h4>Organização de CTO</h4>
+              <p>Precisão em cada conexão</p>
+            </div>
+            <button class="portfolio-expand"
+              onclick="openImgModal('assets/imgs/port3.jpg', 'Organização de CTO – Precisão Técnica')"
+              aria-label="Ver foto">
+              <i class="fas fa-expand"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-type="foto" id="port-item-4">
+          <img src="assets/imgs/port4.jpg" alt="Rack de Backbone" loading="lazy" />
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <h4>Montagem de DIO</h4>
+              <p>Infraestrutura de Backbone</p>
+            </div>
+            <button class="portfolio-expand"
+              onclick="openImgModal('assets/imgs/port4.jpg', 'Montagem de DIO – Backbone')" aria-label="Ver foto">
+              <i class="fas fa-expand"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-type="foto" id="port-item-5">
+          <img src="assets/imgs/port5.jpg" alt="Máquina de fusão" loading="lazy" />
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <h4>Fusão de Alta Precisão</h4>
+              <p>Perda zero em cada emenda</p>
+            </div>
+            <button class="portfolio-expand"
+              onclick="openImgModal('assets/imgs/port5.jpg', 'Fusão de Alta Precisão – Técnica')" aria-label="Ver foto">
+              <i class="fas fa-expand"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="portfolio-item portfolio-item--wide" data-type="video" id="port-item-v2">
+          <video muted loop class="portfolio-video" id="port-video-2">
+            <source src="assets/videos/video2.mp4" type="video/mp4" />
+          </video>
+          <div class="portfolio-overlay video-overlay">
+            <div class="portfolio-info">
+              <h4>Vídeo de Obra</h4>
+              <p>Passagem de cabo em condomínio</p>
+            </div>
+            <button class="portfolio-play-btn" onclick="openVideoModal('assets/videos/video2.mp4')"
+              id="play-video2-btn">
+              <i class="fas fa-play"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== POR QUE RRV ===================== -->
+  <section class="section porque-section">
+    <div class="porque-bg">
+      <img src="assets/imgs/port4.jpg" alt="Por que contratar a RRV Fibra" />
+      <div class="porque-overlay"></div>
+    </div>
+    <div class="container">
+      <div class="porque-content">
+        <div class="section-badge light"><i class="fas fa-star"></i> Diferenciais</div>
+        <h2 class="section-title text-center">Por que ser um parceiro da <span class="highlight">RRV Fibra</span>?</h2>
+        <div class="porque-grid">
+          <div class="porque-item glass-card-dark">
+            <i class="fas fa-user-shield"></i>
+            <h4>Equipe Qualificada</h4>
+            <p>Técnicos especialistas em redes ópticas com treinamento contínuo.</p>
+          </div>
+          <div class="porque-item glass-card-dark">
+            <i class="fas fa-shipping-fast"></i>
+            <h4>Logística Ágil</h4>
+            <p>Frota própria e equipamentos prontos para atuar em qualquer região.</p>
+          </div>
+          <div class="porque-item glass-card-dark">
+            <i class="fas fa-file-invoice-dollar"></i>
+            <h4>Custo-Benefício</h4>
+            <p>Preços competitivos para grandes volumes de lançamento e ativação.</p>
+          </div>
+          <div class="porque-item glass-card-dark">
+            <i class="fas fa-history"></i>
+            <h4>Foco no SLA</h4>
+            <p>Entendemos a urgência do setor e focamos em manter sua rede online.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTATO ===================== -->
+  <section id="contato" class="section contato-section">
+    <div class="glow-orb glow-orb-4"></div>
+    <div class="container">
+      <div class="section-badge"><i class="fas fa-envelope"></i> Fale Conosco</div>
+      <h2 class="section-title text-center">Solicite um <span class="highlight">Orçamento</span></h2>
+      <p class="section-subtitle text-center">Nossa equipe comercial está pronta para entender o seu projeto e oferecer
+        a melhor solução.</p>
+
+      <div class="contato-grid">
+        <div class="contato-info">
+          <div class="contato-card glass-card">
+            <i class="fab fa-whatsapp"></i>
+            <h4>WhatsApp Comercial</h4>
+            <p>Fale diretamente com nosso comercial</p>
+            <a href="https://wa.me/5500000000000" class="contato-link" target="_blank">Chamar no WhatsApp</a>
+          </div>
+          <div class="contato-card glass-card">
+            <i class="fas fa-envelope"></i>
+            <h4>E-mail</h4>
+            <p>Envie sua RFP ou solicitação</p>
+            <a href="mailto:comercial@rrvfibra.com.br" class="contato-link">comercial@rrvfibra.com.br</a>
+          </div>
+        </div>
+
+        <form class="contato-form glass-card" id="contact-form" novalidate>
+          <h3>Dados do Projeto</h3>
+          <div class="form-group">
+            <label for="form-name">Nome da Empresa / Contato *</label>
+            <input type="text" id="form-name" name="nome" placeholder="Sua empresa ou nome" required />
+          </div>
+          <div class="form-group">
+            <label for="form-phone">Telefone / WhatsApp *</label>
+            <input type="tel" id="form-phone" name="telefone" placeholder="(00) 00000-0000" required />
+          </div>
+          <div class="form-group">
+            <label for="form-tipo">Tipo de Serviço Necessário *</label>
+            <select id="form-tipo" name="tipo" required>
+              <option value="">Selecione...</option>
+              <option value="lancamento">Lançamento de Fibra (Aérea/Subt.)</option>
+              <option value="fusao">Fusão e Certificação</option>
+              <option value="ativacao">Ativação de Clientes (Instalação)</option>
+              <option value="manutencao">Manutenção Preventiva/Corretiva</option>
+              <option value="outro">Outros Serviços</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="form-msg">Resumo do Projeto</label>
+            <textarea id="form-msg" name="mensagem" rows="4"
+              placeholder="Quantos km? Qual região? Descreva brevemente..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full" id="form-submit-btn">
+            <i class="fas fa-paper-plane"></i> Enviar Solicitação
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer id="footer">
+    <div class="footer-glow"></div>
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <img src="assets/imgs/logo.png" alt="RRV Fibra" class="footer-logo" />
+        <p>Infraestrutura de fibra óptica de alta performance para o mercado de Telecom.</p>
+        <div class="footer-social">
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Serviços</h4>
+        <ul>
+          <li><a href="#servicos">Lançamento</a></li>
+          <li><a href="#servicos">Fusão</a></li>
+          <li><a href="#servicos">Ativação</a></li>
+          <li><a href="#servicos">Manutenção</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact-info">
+        <h4>Sede Operacional</h4>
+        <p><i class="fas fa-map-marker-alt"></i> Sua Cidade, Estado – Brasil</p>
+        <p><i class="fas fa-phone"></i> (00) 0000-0000</p>
+        <p><i class="fab fa-whatsapp"></i> (00) 00000-0000</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2025 RRV Fibra. Todos os direitos reservados.</p>
+        <p>Expertise em Infraestrutura de Telecomunicações</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== FLOATING WHATSAPP ===================== -->
+  <a href="https://wa.me/5500000000000" class="floating-wpp" target="_blank" rel="noopener">
+    <i class="fab fa-whatsapp"></i>
+    <span class="floating-wpp-tooltip">Fale com nosso comercial</span>
+  </a>
+
+  <!-- ===================== BACK TO TOP ===================== -->
+  <button class="back-to-top" id="back-to-top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- ===================== MODALS ===================== -->
+  <div class="modal-overlay" id="img-modal">
+    <div class="modal-content modal-img-content">
+      <button class="modal-close">&times;</button>
+      <img src="" alt="" id="modal-img-el" />
+      <p id="img-modal-title" class="modal-img-caption"></p>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="video-modal">
+    <div class="modal-content modal-video-content">
+      <button class="modal-close">&times;</button>
+      <video controls id="modal-video-el" class="modal-video-player">
+        <source src="" type="video/mp4" />
+      </video>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="success-modal">
+    <div class="modal-content modal-success-content">
+      <div class="success-icon"><i class="fas fa-check-circle"></i></div>
+      <h3>Solicitação Enviada!</h3>
+      <p>Obrigado! Nosso setor comercial entrará em contato em breve.</p>
+      <button class="btn-primary" onclick="closeModal('success-modal')">Entendido</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
